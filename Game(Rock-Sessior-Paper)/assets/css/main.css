@@ -1,0 +1,43 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+html {
+    font-size: 20px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  .pricing-header {
+    max-width: 700px;
+  }
+
+  .card-deck .card {
+    min-width: 220px;
+  }
+
+  .winner {
+    border : 2px solid green;
+  }
+
+  .loser {
+    border : 2px solid red;
+  }
+
+  .draw {
+    border : 2px solid rgb(248, 203, 3);
+  }
